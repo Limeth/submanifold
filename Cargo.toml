@@ -1,0 +1,19 @@
+[package]
+name = "submanifold"
+version = "0.1.0"
+authors = ["Jakub Hlusička <jakub.hlusicka@email.cz>"]
+build = "build.rs"
+description = "A non-euclidean GPU ray tracer"
+license = "MIT/Unlicense"
+repository = "https://github.com/Limeth/submanifold"
+keywords = ["graphics", "rendering", "ray", "tracing"]
+readme = "README.md"
+
+[dependencies]
+vulkano = "0.*"
+vulkano-win = "0.*"
+winit = "0.5.2"
+
+[build-dependencies]
+vk-sys = "0.*"
+vulkano-shaders = "0.*"
